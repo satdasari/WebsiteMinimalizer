@@ -1,0 +1,64 @@
+body {
+    font-family: Monospace;
+    margin: 0;
+    padding: 20px;
+    background-color: #4D525A;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3B3F45;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="url"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #6e6f71;
+    border-radius: 4px;
+    background-color: #3e3f41;
+    color: #ffffff;
+}
+
+button {
+    font-family: Monospace;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3e3f41;
+    color: #FFFFFF;
+    border: 1px solid #6e6f71;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #adafb3;
+}
+
+#results {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3B3F45;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    white-space: pre-wrap; /* To preserve whitespace and line breaks */
+}

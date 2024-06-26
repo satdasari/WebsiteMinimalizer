@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimalist</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Minimalist</h1>
+    <form action="/scrape" method="post">
+        <label for="url">Enter URL:</label>
+        <input type="url" id="url" name="url" required>
+        <button type="submit">MINIMALIZE</button>
+    </form>
+    <div id="results">{{ results|safe }}</div>
+</body>
+</html>
